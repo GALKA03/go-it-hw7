@@ -1,9 +1,9 @@
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+}/*удалила рядом с хиро*/
 
-.section-title-main {
+.section__titlemain {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -13,7 +13,7 @@
     color: var(--title-text-color);
 }
 
-.section-title {
+.section__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
