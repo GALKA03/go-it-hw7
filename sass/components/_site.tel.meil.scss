@@ -1,6 +1,6 @@
 .contacts {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     margin-left: auto;
     font-weight: 500;
     font-size: 14px;
@@ -10,12 +10,18 @@
 .contakts__icons {
     margin-right: 10px;
     fill: currentColor;
+     display: flex;
+    align-items: center;
+   
+}
+.contacts__item{
+    display: flex; 
 }
 
 .contacts__link {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: auto;
     color: var(--primery-text-color);
 
     transition-property: color, filter;
@@ -29,7 +35,19 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 }
-.contakts__icon {
+.contacts__linkmale{
+display: flex;
+align-items: center;
+}
+.contacts__linkphon{
+display: flex;
+align-items: center;
+}
+.conteiner__contacts{
     display: flex;
-    align-items: center;
+margin-left: auto;
+}
+.contacts__use{
+    display: flex;
+        align-items: center;
 }
